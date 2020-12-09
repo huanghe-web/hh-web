@@ -106,9 +106,9 @@ function initTriangles(){
 	
 	if(str == 'line'){
 		var vertices = [
-			-1, -1, 0,
+			-0.865, -0.5, 0,
 			 0,  1, 0, 
-			 1, -1, 0
+			 0.865, -0.5, 0
 		];
 		
 		var u = vec3.fromValues(vertices[0], vertices[1], vertices[2]);
